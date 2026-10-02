@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Momora Products</title>
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="bg-purple-200 text-white p-3 flex justify-between items-center shadow-xl sticky top-0 z-10">
+
+        <h1 class="font-bold text-2xl text-black"><i class="fa-solid fa-person-breastfeeding"
+            style="color: rgb(51, 200, 22);"></i>Momora</h1>
+
+            <details class="lg:hidden">
+    <summary class="text-2xl cursor-pointer list-none">☰</summary>
+    <div class="absolute right-3 mt-3 bg-white text-black p-4 rounded-lg shadow-lg">
+        <a href="./index.html" class="block py-2">Home</a>
+        <a href="product.html" class="block py-2">Product</a>
+        <a href="contact.html" class="block py-2">Contact</a>
+    </div>
+</details>
+        
+
+        <ul class="flex gap-5 text-gray-600 hidden lg:flex">
+        <li>
+            <a class="hover:underline hover:text-black" href="./index.html">Home</a>
+        </li>
+        <li>
+            <a class="hover:underline hover:text-black" href="product.html">product</a>
+        </li>
+        <li>
+            <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+        </li>
+
+    </ul>
+
+    </nav>
+
+
+    <!-- Product Section -->
+
+    <section class="bg-purple-100 py-10 px-6">
+
+        <!-- Heading -->
+
+        <h2 class="text-3xl font-bold text-center mb-5">
+            Our Products
+        </h2>
+
+
+        <!-- Search Container -->
+
+        <div class="max-w-4xl mx-auto mb-10">
+
+            <input
+                type="text"
+                placeholder="Search for a Product..."
+                class="w-full border border-gray-400 p-3 rounded"
+            >
+
+        </div>
+
+
+        <!-- Product Cards -->
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+
+
+            <!-- 1 Tulips -->
+
+            <div class="bg-white p-4 rounded-xl shadow-md">
+
+                <img src="./lulips.p.png"
+                     class="w-full h-48 object-cover rounded">
+
+                <h3 class="font-bold mt-4">Tulips</h3>
+
+                <p class="text-sm text-gray-600 mt-2">
+                    Elegant blooms that add a soft and charming touch.
+                </p>
+
+                <p class="text-yellow-500 mt-2">★★★★★</p>
+
+                <p>
+                    <del class="text-gray-400">₹650</del>
+                    <b class="text-green-600"> ₹520/-</b>
+                </p>
+
+                <button class="bg-green-700 text-white w-full py-2 rounded-full mt-3">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- 2 Green Plant -->
+
+            <div class="bg-white p-4 rounded-xl shadow-md">
+
+                <img src="./greenplant.p.png"
+                     class="w-full h-48 object-cover rounded">
+
+                <h3 class="font-bold mt-4">Green Plant</h3>
+
+                <p class="text-sm text-gray-600 mt-2">
+                    Lush greenery that brings a refreshing feel to your home.
+                </p>
+
+                <p class="text-yellow-500 mt-2">★★★★★</p>
+
+                <p>
+                    <del class="text-gray-400">₹300</del>
+                    <b class="text-green-600"> ₹200/-</b>
+                </p>
+
+                <button class="bg-green-700 text-white w-full py-2 rounded-full mt-3">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- 3 Lily -->
+
+            <div class="bg-white p-4 rounded-xl shadow-md">
+
+                <img src="./lily.p.png"
+                     class="w-full h-48 object-cover rounded">
+
+                <h3 class="font-bold mt-4">Lily</h3>
+
+                <p class="text-sm text-gray-600 mt-2">
+                    Delicate flowers that bring freshness indoors.
+                </p>
+
+                <p class="text-yellow-500 mt-2">★★★★★</p>
+
+                <p>
+                    <del class="text-gray-400">₹500</del>
+                    <b class="text-green-600"> ₹320/-</b>
+                </p>
+
+                <button class="bg-green-700 text-white w-full py-2 rounded-full mt-3">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- 4 Sunflower -->
+
+            <div class="bg-white p-4 rounded-xl shadow-md">
+
+                <img src="./sunflower.p.png"
+                     class="w-full h-48 object-cover rounded">
+
+                <h3 class="font-bold mt-4">Sunflower</h3>
+
+                <p class="text-sm text-gray-600 mt-2">
+                    A cheerful bloom that adds a warm and vibrant touch.
+                </p>
+
+                <p class="text-yellow-500 mt-2">★★★★★</p>
+
+                <p>
+                    <del class="text-gray-400">₹200</del>
+                    <b class="text-green-600"> ₹120/-</b>
+                </p>
+
+                <button class="bg-green-700 text-white w-full py-2 rounded-full mt-3">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- 5 Rose -->
+
+            <div class="bg-white p-4 rounded-xl shadow-md">
+
+                <img src="./rose.p.png"
+                     class="w-full h-48 object-cover rounded">
+
+                <h3 class="font-bold mt-4">Rose Plant</h3>
+
+                <p class="text-sm text-gray-600 mt-2">
+                    Beautiful roses that add colour to your garden.
+                </p>
+
+                <p class="text-yellow-500 mt-2">★★★★★</p>
+
+                <p>
+                    <del class="text-gray-400">₹450</del>
+                    <b class="text-green-600"> ₹350/-</b>
+                </p>
+
+                <button class="bg-green-700 text-white w-full py-2 rounded-full mt-3">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- 6 Areca Palm -->
+
+            <div class="bg-white p-4 rounded-xl shadow-md">
+
+                <img src="./areca.p.png"
+                     class="w-full h-48 object-cover rounded">
+
+                <h3 class="font-bold mt-4">Areca Palm</h3>
+
+                <p class="text-sm text-gray-600 mt-2">
+                    A beautiful indoor plant for a fresh atmosphere.
+                </p>
+
+                <p class="text-yellow-500 mt-2">★★★★★</p>
+
+                <p>
+                    <del class="text-gray-400">₹600</del>
+                    <b class="text-green-600"> ₹450/-</b>
+                </p>
+
+                <button class="bg-green-700 text-white w-full py-2 rounded-full mt-3">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- 7 Hibiscus -->
+
+            <div class="bg-white p-4 rounded-xl shadow-md">
+
+                <img src="./hibiscus.p.png"
+                     class="w-full h-48 object-cover rounded">
+
+                <h3 class="font-bold mt-4">Hibiscus</h3>
+
+                <p class="text-sm text-gray-600 mt-2">
+                    Bright and colourful flowers for your garden.
+                </p>
+
+                <p class="text-yellow-500 mt-2">★★★★★</p>
+
+                <p>
+                    <del class="text-gray-400">₹350</del>
+                    <b class="text-green-600"> ₹250/-</b>
+                </p>
+
+                <button class="bg-green-700 text-white w-full py-2 rounded-full mt-3">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- 8 Snake Plant -->
+
+            <div class="bg-white p-4 rounded-xl shadow-md">
+
+                <img src="./snake.p.png"
+                     class="w-full h-48 object-cover rounded">
+
+                <h3 class="font-bold mt-4">Snake Plant</h3>
+
+                <p class="text-sm text-gray-600 mt-2">
+                    A stylish indoor plant that is easy to maintain.
+                </p>
+
+                <p class="text-yellow-500 mt-2">★★★★★</p>
+
+                <p>
+                    <del class="text-gray-400">₹400</del>
+                    <b class="text-green-600"> ₹300/-</b>
+                </p>
+
+                <button class="bg-green-700 text-white w-full py-2 rounded-full mt-3">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- 9 Organic Compost -->
+
+            <div class="bg-white p-4 rounded-xl shadow-md">
+
+                <img src="./organic.p.png"
+                     class="w-full h-48 object-cover rounded">
+
+                <h3 class="font-bold mt-4">Organic Compost</h3>
+
+                <p class="text-sm text-gray-600 mt-2">
+                    Natural compost that improves soil quality.
+                </p>
+
+                <p class="text-yellow-500 mt-2">★★★★★</p>
+
+                <p>
+                    <del class="text-gray-400">₹350</del>
+                    <b class="text-green-600"> ₹280/-</b>
+                </p>
+
+                <button class="bg-green-700 text-white w-full py-2 rounded-full mt-3">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- 10 Vermicompost -->
+
+            <div class="bg-white p-4 rounded-xl shadow-md">
+
+                <img src="./vermi.p.png"
+                     class="w-full h-48 object-cover rounded">
+
+                <h3 class="font-bold mt-4">Vermicompost</h3>
+
+                <p class="text-sm text-gray-600 mt-2">
+                    Organic fertilizer for healthy plant growth.
+                </p>
+
+                <p class="text-yellow-500 mt-2">★★★★★</p>
+
+                <p>
+                    <del class="text-gray-400">₹400</del>
+                    <b class="text-green-600"> ₹320/-</b>
+                </p>
+
+                <button class="bg-green-700 text-white w-full py-2 rounded-full mt-3">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- 11 Coco Peat -->
+
+            <div class="bg-white p-4 rounded-xl shadow-md">
+
+                <img src="./coco.p.png"
+                     class="w-full h-48 object-cover rounded">
+
+                <h3 class="font-bold mt-4">Coco Peat</h3>
+
+                <p class="text-sm text-gray-600 mt-2">
+                    Helps retain moisture and supports plant growth.
+                </p>
+
+                <p class="text-yellow-500 mt-2">★★★★★</p>
+
+                <p>
+                    <del class="text-gray-400">₹250</del>
+                    <b class="text-green-600"> ₹180/-</b>
+                </p>
+
+                <button class="bg-green-700 text-white w-full py-2 rounded-full mt-3">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- 12 Neem Cake -->
+
+            <div class="bg-white p-4 rounded-xl shadow-md">
+
+                <img src="./neem.p.png"
+                     class="w-full h-48 object-cover rounded">
+
+                <h3 class="font-bold mt-4">Neem Cake Fertilizer</h3>
+
+                <p class="text-sm text-gray-600 mt-2">
+                    Natural fertilizer for healthy soil and plants.
+                </p>
+
+                <p class="text-yellow-500 mt-2">★★★★★</p>
+
+                <p>
+                    <del class="text-gray-400">₹300</del>
+                    <b class="text-green-600"> ₹220/-</b>
+                </p>
+
+                <button class="bg-green-700 text-white w-full py-2 rounded-full mt-3">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- 13 Sunflower Seeds -->
+
+            <div class="bg-white p-4 rounded-xl shadow-md">
+
+                <img src="./sunseed.p.png"
+                     class="w-full h-48 object-cover rounded">
+
+                <h3 class="font-bold mt-4">Sunflower Seeds</h3>
+
+                <p class="text-sm text-gray-600 mt-2">
+                    Quality seeds for growing bright sunflowers.
+                </p>
+
+                <p class="text-yellow-500 mt-2">★★★★★</p>
+
+                <p>
+                    <del class="text-gray-400">₹180</del>
+                    <b class="text-green-600"> ₹120/-</b>
+                </p>
+
+                <button class="bg-green-700 text-white w-full py-2 rounded-full mt-3">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- 14 Rose Seeds -->
+
+            <div class="bg-white p-4 rounded-xl shadow-md">
+
+                <img src="./seed.3.png"
+                     class="w-full h-48 object-cover rounded">
+
+                <h3 class="font-bold mt-4"> Seeds</h3>
+
+                <p class="text-sm text-gray-600 mt-2">
+                    Grow beautiful roses from quality seeds.
+                </p>
+
+                <p class="text-yellow-500 mt-2">★★★★★</p>
+
+                <p>
+                    <del class="text-gray-400">₹200</del>
+                    <b class="text-green-600"> ₹150/-</b>
+                </p>
+
+                <button class="bg-green-700 text-white w-full py-2 rounded-full mt-3">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- 15 Tomato Seeds -->
+
+            <div class="bg-white p-4 rounded-xl shadow-md">
+
+                <img src="./tomoto seed.p.png"
+                     class="w-full h-48 object-cover rounded">
+
+                <h3 class="font-bold mt-4">Tomato Seeds</h3>
+
+                <p class="text-sm text-gray-600 mt-2">
+                    Fresh seeds for growing healthy tomatoes.
+                </p>
+
+                <p class="text-yellow-500 mt-2">★★★★★</p>
+
+                <p>
+                    <del class="text-gray-400">₹150</del>
+                    <b class="text-green-600"> ₹100/-</b>
+                </p>
+
+                <button class="bg-green-700 text-white w-full py-2 rounded-full mt-3">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <!-- 16 Marigold Seeds -->
+
+            <div class="bg-white p-4 rounded-xl shadow-md">
+
+                <img src="./marigoald seed.p.png"
+                     class="w-full h-48 object-cover rounded">
+
+                <h3 class="font-bold mt-4">Marigold Seeds</h3>
+
+                <p class="text-sm text-gray-600 mt-2">
+                    Easy-to-grow seeds for colourful marigold flowers.
+                </p>
+
+                <p class="text-yellow-500 mt-2">★★★★★</p>
+
+                <p>
+                    <del class="text-gray-400">₹160</del>
+                    <b class="text-green-600"> ₹110/-</b>
+                </p>
+
+                <button class="bg-green-700 text-white w-full py-2 rounded-full mt-3">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- FOOTER -->
+
+
+        <footer class="bg-purple-500
+                   text-black
+                   pt-12 pb-6">
+
+
+            <div class="max-w-7xl mx-auto px-6">
+
+
+                <div class="grid grid-cols-1
+                        sm:grid-cols-2
+                        lg:grid-cols-4
+                        gap-10">
+
+
+                    <!-- Brand -->
+
+                    <div>
+
+                        <h1 class="text-3xl
+                               font-bold">
+
+                            <i class="fa-solid
+                                    fa-person-breastfeeding"
+                                    style="color: rgb(246, 248, 245);"></i>
+
+                            Momora<br><br>
+                            
+
+                            <p class="text-lg text-medium"><h2>
+                                Bringing nature closer to you.
+                                Quality plants for every space.
+                                Fresh seeds for healthy growth.
+                                Nourishing soil for greener gardens.</h2>
+                            </p>
+                        
+                        
+
+
+
+
+                        </h1>
+
+
+                        <p class="mt-4
+                              text-black">
+
+                            Green homes • Happy hearts
+
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- Quick Links -->
+
+                    <div>
+
+                        <h2 class="font-bold
+                               text-lg mb-4">
+                            Quick Links
+
+                        </h2>
+
+
+                        <div class="space-y-2
+                                text-black">
+
+                            <p class="hover:underline">Home</p>
+                            <p class="hover:underline">Plants</p>
+                            <p class="hover:underline">About</p>
+                            <p class="hover:underline">Reviews</p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Contact -->
+
+                    <div>
+
+                        <h2 class="font-bold
+                               text-lg mb-4">
+
+                            Contact
+
+                        </h2>
+
+
+                        <div class="space-y-3
+                                text-black">
+
+                            <p>
+                                <i class="fa-solid
+                                      fa-envelope mr-2"></i>
+
+                                hello@momora.com
+                            </p>
+
+
+
+
+
+                            <p>
+                                <i class="fa-solid
+                                      fa-location-dot mr-2"></i>
+
+                                Kerala, India
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Social Media -->
+
+                    <div>
+
+                        <h2 class="font-bold
+                               text-lg mb-4">
+
+                            Follow Us
+
+                        </h2>
+
+
+                        <div class="flex gap-5
+                                text-2xl">
+
+                            <i class="fa-brands
+                                  fa-instagram"></i>
+
+                            <i class="fa-brands
+                                  fa-facebook"></i>
+
+                            <i class="fa-brands
+                                  fa-pinterest"></i>
+
+                            <i class="fa-brands
+                                  fa-youtube"></i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Copyright -->
+
+                <div class="border-t
+                        border-purple-700
+                        mt-10 pt-5
+                        text-center                        text-black-200
+                        text-sm">
+
+                    © 2026 Momora. All rights reserved.
+
+                </div>
+
+            </div>
+
+        </footer>
+
+</html>
+
+</body>
+
+</html>

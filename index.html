@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momora</title>
+    <!--tailwind css cdn link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+</head>
+
+<body>
+
+</body>
+<!--responsive navbar-->
+<nav class="bg-purple-200 text-white p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+    <h1 class="text-2xl font-bold text-black"> <i class="fa-solid fa-person-breastfeeding"
+            style="color: rgb(51, 200, 22);"></i>Momora</h1>
+    <details class="lg:hidden">
+    <summary class="text-2xl cursor-pointer list-none">☰</summary>
+    <div class="absolute right-3 mt-3 bg-white text-black p-4 rounded-lg shadow-lg">
+        <a href="./index.html" class="block py-2">Home</a>
+        <a href="product.html" class="block py-2">Product</a>
+        <a href="contact.html" class="block py-2">Contact</a>
+    </div>
+</details>
+
+    <ul class="flex gap-5 text-gray-600 hidden lg:flex">
+        <li>
+            <a class="hover:underline hover:text-black" href="./index.html">Home</a>
+        </li>
+        <li>
+            <a class="hover:underline hover:text-black" href="product.html">product</a>
+        </li>
+        <li>
+            <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+        </li>
+
+    </ul>
+
+
+
+</nav>
+<!--heder section-->
+<section class="bg-purple-300 p-2 flex justify-center">
+    <div>
+        <p class="text-1xl">
+            <i class="fa-brands fa-envira" style="color: rgb(51, 200, 22);"></i>
+            fresh plants.greener tomorrow
+        </p>
+        <h2 class="font-bold text-4xl mb-5"> Plants for your<br>Interior</h2>
+        <P class="mb-5 text-1xl"> we offer you wide range of artificial plants and flowers <br>to make your space more
+            beautiful
+        </P>
+        <div>
+            <button class="bg-purple-400 hover:bg-purple-600 text-white font-bold py-2 px-4 big-black-rounded">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Shop now
+            </button>
+            <button class="bg-gray-400 hover:bg-gray-600 text-white font-bold p-2 px-4 big-black-rounded">
+                <i class="fa-regular fa-circle-play"></i>
+                Watch video
+            </button>
+        </div>
+        <p class="mt-5">160+plants species|100+clients</p>
+    </div>
+    <div class="hidden md:block p-5 ">
+        <img src="./header-section.jpg" alt="header image" class="w-80">
+    </div>
+
+
+</section>
+<!--about section-->
+<section class="text-center">
+    <h1 class="text-3xl font-bold mt-5">About us</h1>
+    <p>This site is for people who admire the beauty of plants and want to<br>
+        bring that beauty into their homes and workplaces.</p>
+
+
+    <div class="md:flex">
+        <div class="bg-purple-50 border border-black p-3 m-6 shadow-2xl">
+            <h1 class="text-1xl font-medium">Large Assortment</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                stroke="currentColor" class="w-20 inline">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 0 1-2.25 2.25M16.5 7.5V18a2.25 2.25 0 0 0 2.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 0 0 2.25 2.25h13.5M6 7.5h3v3H6v-3Z" />
+            </svg>
+
+            <p>Discover a wide variety of beautiful flowers and plants.
+                Find the perfect choice for every space and occasion.</p>
+        </div>
+
+
+
+        <div class=" bg-purple-50 border border-black p-2 m-6 shadow-2xl">
+            <h1 class="text-1xlfont-medium">Free and fast shipping</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                stroke="currentColor" class="w-20 inline">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3" />
+            </svg>
+
+            <p>Get your favorite plants and flowers delivered quickly.
+                Enjoy free and hassle-free shipping to your doorstep.</p>
+        </div>
+
+
+
+        <div class=" bg-purple-50 border border-black p-2 m-6 shadow-2xl">
+            <h1 class="text-1xl font-medium">24/7Support</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                stroke="currentColor" class="w-20 inline">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0 6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+            </svg>
+
+            <p>We’re always here whenever you need assistance.
+                Get friendly support and quick answers to your questions</p>
+        </div>
+
+
+    </div>
+    </div>
+</section>
+<!-- BEST SELLERS -->
+
+
+<section id="plants" class="py-16 bg-purple-100">
+    <div class="max-w-7xl mx-auto px-5">
+
+        <div class="text-center mb-10">
+
+            <p class="text-green-600 font-semibold">
+                OUR COLLECTION
+            </p>
+
+            <h1 class="text-3xl md:text-4xl
+
+                           font-bold mt-2">
+
+                           Best Sellers
+
+            </h1>
+
+            <p class="text-gray-600 mt-2">
+
+                Beautiful plants loved by our
+                plant lovers.
+
+            </p>
+
+        </div>
+
+
+
+        <!-- Product Grid -->
+
+        <div class="grid grid-cols-1
+                        sm:grid-cols-2
+                        lg:grid-cols-4
+                        gap-6">
+
+
+            <!-- Product 1 -->
+
+            <div class="bg-white rounded-2xl
+                            overflow-hidden
+                            shadow-md
+                            hover:shadow-xl
+                            transition">
+
+                <div class="bg-white-100">
+
+                    <img src="./outdoor.png" alt="Outdoor Plant" class="w-full h-64
+                                   object-contain
+                                   hover:scale-105
+                                   transition">
+
+                </div>
+
+
+                <div class="p-5">
+
+                    <h2 class="font-bold text-lg">
+                      green plant
+                    </h2>
+
+                    <p class="text-gray-600
+                                  text-sm mt-2">
+
+                        Elegant blooms that add
+                        a soft and charming touch.
+
+                    </p>
+
+
+                    <p class="mt-3">
+                        ⭐⭐⭐⭐⭐
+                    </p>
+
+
+                    <p class="mt-2 text-lg">
+
+                        ₹<del class="text-gray-400">
+                            650
+                        </del>
+
+                        <span class="font-bold
+                                         text-green-700">
+
+                            520/-
+
+                        </span>
+
+                    </p>
+
+
+                    <button class="w-full bg-green-700
+                                   hover:bg-green-800
+                                   text-white
+                                   py-2 mt-4
+                                   rounded-full">
+
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Product 2 -->
+
+            <div class="bg-white rounded-2xl
+                            overflow-hidden
+                            shadow-md
+                            hover:shadow-xl
+                            transition">
+
+                <div class="bg-white-100">
+
+                    <img src="./green500.png" alt="Green Plant" class="w-full h-64
+                                   object-contain
+                                   hover:scale-105
+                                   transition">
+
+                </div>
+
+
+                <div class="p-5">
+
+                    <h2 class="font-bold text-lg">
+                 green plant
+                    </h2>
+
+                    <p class="text-gray-600
+                                  text-sm mt-2">
+
+                        Lush greenery that brings
+                        a refreshing feel to your home.
+
+                    </p>
+
+
+                    <p class="mt-3">
+                        ⭐⭐⭐⭐⭐
+                    </p>
+
+
+                    <p class="mt-2 text-lg">
+
+                        ₹<del class="text-gray-400">
+                            300
+                        </del>
+
+                        <span class="font-bold
+                                         text-green-700">
+
+                            200/-
+
+                        </span>
+
+                    </p>
+
+
+                    <button class="w-full bg-green-700
+                                   hover:bg-green-800
+                                   text-white
+                                   py-2 mt-4
+                                   rounded-full">
+
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Product 3 -->
+
+            <div class="bg-white rounded-2xl
+                            overflow-hidden
+                            shadow-md
+                            hover:shadow-xl
+                            transition">
+
+                <div class="bg-white-100">
+
+                    <img src="./lilly500.png"Lilly" class="w-full h-64
+                                   object-contain
+                                   hover:scale-105
+                                   transition">
+
+                </div>
+
+
+                <div class="p-5">
+
+                    <h2 class="font-bold text-lg">
+                        Lilly
+                    </h2>
+
+                    <p class="text-gray-600
+                                  text-sm mt-2">
+
+                        Delicate and graceful flowers
+                        that bring freshness indoors.
+
+                    </p>
+
+
+                    <p class="mt-3">
+                        ⭐⭐⭐⭐⭐
+                    </p>
+
+
+                    <p class="mt-2 text-lg">
+
+                        ₹<del class="text-gray-400">
+                            500
+                        </del>
+
+                        <span class="font-bold
+                                         text-green-700">
+
+                            320/-
+
+                        </span>
+
+                    </p>
+
+
+                    <button class="w-full bg-green-700
+                                   hover:bg-green-800
+                                   text-white
+                                   py-2 mt-4
+                                   rounded-full">
+
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Product 4 -->
+
+            <div class="bg-white rounded-2xl
+                            overflow-hidden
+                            shadow-md
+                            hover:shadow-xl
+                            transition">
+
+                <div class="bg-white-100">
+
+                    <img src="./sunflower500.png" alt="Sunflower" class="w-full h-64
+                                   object-contain
+                                   hover:scale-105
+                                   transition">
+
+                </div>
+
+
+                <div class="p-5">
+
+                    <h2 class="font-bold text-lg">
+                        Sunflower
+                    </h2>
+
+                    <p class="text-gray-600
+                                  text-sm mt-2">
+
+                        A cheerful bloom that adds
+                        a warm and vibrant touch.
+
+                    </p>
+
+
+                    <p class="mt-3">
+                        ⭐⭐⭐⭐⭐
+                    </p>
+
+
+                    <p class="mt-2 text-lg">
+
+                        ₹<del class="text-gray-400">
+                            200
+                        </del>
+
+                        <span class="font-bold
+                                         text-green-700">
+
+                            120/-
+
+                        </span>
+
+                    </p>
+
+
+                    <button class="w-full bg-green-700
+                                   hover:bg-green-800
+                                   text-white
+                                   py-2 mt-4
+                                   rounded-full">
+
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--categories-->
+<section class="p-4 text-center bg-purple-50">
+    <h1 class="font-bold mt-5 text-3xl">Categories</h1>
+    <div class="grid grid-cols-2  md:grid-cols-4 m-5 gap-5">
+        <div>
+            <img src="./tulips.1.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1> Indoor plants <br>Elegant blooms that add a soft and charming touch to your space.<br>⭐⭐⭐⭐⭐</h1>
+
+            <p>₹<del>650</del> 520-/-</p>
+
+        </div>
+        <div>
+            <img src="./outdoor.cat.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>Outdoor plant <br>Lush greenery that brings a refreshing and peaceful feel to your home. <br>⭐⭐⭐⭐⭐</h1>
+            <p>₹<del>300</del> 200-/-</p>
+
+
+        </div>
+        <div>
+            <img src="./seed.cat.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1> seed<br>Delicate and graceful flowers that bring freshness and beauty nature . <br> ⭐⭐⭐⭐⭐</h1>
+            <p>₹<del>500</del> 320-/-</p>
+
+        </div>
+        <div>
+            <img src="./soil.cat.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1> Soil<br>A cheerful bloom that adds a warm and vibrant touch to any space.<br>⭐⭐⭐⭐⭐</h1>
+            <p>₹<del>200</del> 120-/-</p>
+
+        </div>
+    </div>
+</section>
+<!-- CUSTOMER REVIEWS -->
+
+
+<section id="reviews" class="py-16 bg-purple-100">
+
+    <div class="max-w-7xl mx-auto px-5">
+
+
+        <div class="text-center mb-10">
+
+            <p class="text-black font-semibold">
+                HAPPY CUSTOMERS
+            </p>
+
+            <h1 class="text-3xl md:text-4xl
+                           font-bold mt-2">
+
+                Customer Reviews
+
+            </h1>
+
+        </div>
+
+
+
+        <!-- Reviews Grid -->
+
+        <div class="grid grid-cols-1
+                        md:grid-cols-3 gap-6">
+
+
+            <!-- Review 1 -->
+
+            <div class="bg-purple-300
+                            text-black
+                            rounded-2xl
+                            p-6 shadow-lg">
+
+                <h2 class="font-bold text-lg
+                               text-black">
+
+                    John Sam
+
+                </h2>
+
+                <p class="mt-2">
+                    ⭐⭐⭐⭐⭐
+                </p>
+
+                <p class="mt-4
+                              text-black
+                              leading-7">
+
+                    The plants arrived fresh and
+                    beautiful. I really loved the
+                    quality and packaging.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- Review 2 -->
+
+            <div class="bg-purple-300
+                            text-black
+                            rounded-2xl
+                            p-6 shadow-lg">
+
+                <h2 class="font-bold text-lg">
+
+                    Jane Doe
+
+                </h2>
+
+                <p class="mt-2">
+                    ⭐⭐⭐⭐
+                </p>
+
+                <p class="mt-4
+                              text-black
+                              leading-7">
+
+                    Very beautiful collection.
+                    The delivery was quick and
+                    the plants were healthy.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- Review 3 -->
+
+            <div class="bg-purple-300
+                            text-black
+                            rounded-2xl
+                            p-6 shadow-lg">
+
+                <h2 class="font-bold text-lg">
+
+                    John Smith
+
+                </h2>
+
+                <p class="mt-2">
+                    ⭐⭐⭐⭐
+                </p>
+
+                <p class="mt-4
+                              text-black
+                              leading-7">
+
+                    Great experience. The plants
+                    made my room look much more
+                    fresh and natural.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+        <!--news letter-->
+        <section class="p-5 text-center bg-purple-50">
+            <h1 class="text-3xl text-black font-bold">Subscribe to our newsletter</h1>
+            <input type="text" class="border border-black p-2 m-3" style="width:80%">
+            <p class="text-black text-bold-black">Get the latest updates on new products and upcoming sales</p>
+            <form class="flex flex-col md:flex-row justify-center gap-2 mt-5">
+                <input type="email" placeholder="Enter your email"
+                    class="p-2  font-bold text-black border border-black rounded-1g w-full md:w-auto">
+                <button type="submit"
+                    class="bg-purple-400 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-0g">Subscribe</button>
+            </form>
+        </section>
+
+
+        <!-- FOOTER -->
+
+
+        <footer class="bg-purple-500
+                   text-black
+                   pt-12 pb-6">
+
+
+            <div class="max-w-7xl mx-auto px-6">
+
+
+                <div class="grid grid-cols-1
+                        sm:grid-cols-2
+                        lg:grid-cols-4
+                        gap-10">
+
+
+                    <!-- Brand -->
+
+                    <div>
+
+                        <h1 class="text-3xl
+                               font-bold">
+
+                            <i class="fa-solid
+                                    fa-person-breastfeeding"
+                                    style="color: rgb(246, 248, 245);"></i>
+
+                            Momora<br><br>
+                            
+
+                            <p class="text-lg text-medium"><h2>
+                                Bringing nature closer to you.
+                                Quality plants for every space.
+                                Fresh seeds for healthy growth.
+                                Nourishing soil for greener gardens.</h2>
+                            </p>
+                        
+                        
+
+
+
+
+                        </h1>
+
+
+                        <p class="mt-4
+                              text-black">
+
+                            Green homes • Happy hearts
+
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- Quick Links -->
+
+                    <div>
+
+                        <h2 class="font-bold
+                               text-lg mb-4">
+                            Quick Links
+
+                        </h2>
+
+
+                        <div class="space-y-2
+                                text-black">
+
+                            <p class="hover:underline">Home</p>
+                            <p class="hover:underline">Plants</p>
+                            <p class="hover:underline">About</p>
+                            <p class="hover:underline">Reviews</p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Contact -->
+
+                    <div>
+
+                        <h2 class="font-bold
+                               text-lg mb-4">
+
+                            Contact
+
+                        </h2>
+
+
+                        <div class="space-y-3
+                                text-black">
+
+                            <p>
+                                <i class="fa-solid
+                                      fa-envelope mr-2"></i>
+
+                                hello@momora.com
+                            </p>
+
+
+
+
+
+                            <p>
+                                <i class="fa-solid
+                                      fa-location-dot mr-2"></i>
+
+                                Kerala, India
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Social Media -->
+
+                    <div>
+
+                        <h2 class="font-bold
+                               text-lg mb-4">
+
+                            Follow Us
+
+                        </h2>
+
+
+                        <div class="flex gap-5
+                                text-2xl">
+
+                            <i class="fa-brands
+                                  fa-instagram"></i>
+
+                            <i class="fa-brands
+                                  fa-facebook"></i>
+
+                            <i class="fa-brands
+                                  fa-pinterest"></i>
+
+                            <i class="fa-brands
+                                  fa-youtube"></i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Copyright -->
+
+                <div class="border-t
+                        border-purple-700
+                        mt-10 pt-5
+                        text-center                        text-black-200
+                        text-sm">
+
+                    © 2026 Momora. All rights reserved.
+
+                </div>
+
+            </div>
+
+        </footer>
+
+</html>
